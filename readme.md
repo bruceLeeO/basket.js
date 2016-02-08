@@ -7,6 +7,12 @@
 
 ## Resources
 
+## Introduction
+
+Have you ever experience the agony of waiting for a page to load, especially on your mobile device on some part of the world that has no fast connection?  Well that's because in additon to stylesheet (files that make your pages look stunning and incredible) and image files, there are script files that are not readily cache by most browsers and if you couple that with slow internet connection then you'll be waiting and waiting and waiting (catch my point).  Lucky you (who are reading this page) Basket.js has a solution to this nightmare.  Basket.js solved this problem for scripts by storing those files into the browser's local storage.  In a way, it is design to cache script files and they work much faster than a browser cache.  If you know how the internet works, then you'll appreciate just how caching these scripts can drastically lowers the amount of request from the browser to the server.  Just to give you an idea:
+>a typical Facebook page load without the scripts cache mechanism would undergo ~9 seconds on a fast connection >- that's equivalent to making 49 HTTP requests!
+Now just be honest, 9 seconds is like eternity nowadays with high spped connection.  So why settle for less when you can cache and be on your way.  
+
 ### Examples
 
 * [Load RequireJS modules with Basket.js](https://github.com/andrewwakeling/requirejs-basketjs/blob/master/basket-loader.js)
